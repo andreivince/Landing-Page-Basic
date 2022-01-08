@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap'); /*Fonte*/
+
+* { /*Todos arquivos tem que ter*/
+    margin: 0px;
+    padding: 0px;
+}
+
+body { /*Para deixar o fundo com essa foto*/
+    background: url(./assets/menu_background.jpeg);
+    background-size: cover;
+}
+
+.container {
+    margin-top: 150px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 100px;
+    font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Roboto Slab', serif;
+}
+
+.enviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email1 {
+    width: 500px;
+    height: 20px;
+}
+
+.enviar1 {
+    width: 50px;
+    height: 23px;
+    margin-left: 5px;
+    font-family: 'Roboto Slab', serif;
+    background:#235444;
+    color: rgb(255, 255, 255);
+    border: none; /*Isso tira a borda estranha que fica no botao*/
+
+}
+
